@@ -1,0 +1,29 @@
+#image{
+   width: 800px;
+   height: 550px;
+   background-color: aqua;
+   padding: 0;
+   border: 2px solid rgb(84, 140, 140);
+   margin: 50px auto;
+   text-shadow: 1px 1px dimgray;
+   font-size: 150%;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-size: cover;
+}
+.preview{
+   
+    max-width: 20%;
+    margin-left: 10%; 
+    gap: 10px;  
+}
+
+body{
+    background-color: antiquewhite;
+}
+.preview img{
+    width: 30%;
+    height: auto;
+}
